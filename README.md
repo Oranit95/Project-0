@@ -29,8 +29,8 @@ what the Polynom will be: -8.0 + -5.0x + 1.0x^2
 3. copy constructor - copies a Polynom to another.
 • The user can use the following methods:
 
-1. add(myMath.Monom m1) Add m1 to this Polynom.
-2. add (myMath.Polynom_able p1) Add p1 to this Polynom.
+1. add(myMath.Monom m1) - Add m1 to this Polynom.
+2. add (myMath.Polynom_able p1) - Add p1 to this Polynom.
 3. area(double x0, double x1,double eps) - Compute Riemann's Integral over this Polynom,
 starting from x0, till x1 using eps size steps, see:
 https://en.wikipedia.org/wiki/Riemann_integral
@@ -47,11 +47,11 @@ while x0<= at x1:
 8. isZero() - Test if this is the Zero Polynom.
 9. iteretor() - A Java iterator to go over the Polynom
 10. multiply (myMath.Polynom_able p1) - Multiply this Polynom by p1
-11. root(double x0, double x1,double eps)- Returns the x-axis cutting point of the Polynom with
+11. root(double x0, double x1,double eps) - Returns the x-axis cutting point of the Polynom with
 an eps deviation, in the received segment, using the bisection method.
 This function was written with the help of:
 https://en.wikipedia.org/wiki/Bisection_method
-12. sort() Sorting the Polynom's using the Monom_comperator and the Java ArrayList Sort.
+12. sort() - Sorting the Polynom's using the Monom_comperator and the Java ArrayList Sort.
 13. substract (myMath.Polynom_able p1) - Subtract p1 from this Polynom.
 14. toString() - Concatenation of the Polynom.
 
