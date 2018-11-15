@@ -40,6 +40,7 @@ while x0<= at x1:
   * sum x0*|f(eps)|.
   * advance x0 by eps.
   * return sum.
+  Note: The function calculates the integral, whetear the function is below the x-axis or above
 4. copy() Create a deep copy of this Polynom.
 5. derivative() Creates a new Polynom which is the derivative of this Polynom.
 6. equals (myMath.Polynom_able p1) - Test if this Polynom is equals to p1.
