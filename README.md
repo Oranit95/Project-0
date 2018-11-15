@@ -58,5 +58,6 @@ https://en.wikipedia.org/wiki/Bisection_method
 
 ▪ Monom_comperator class - A class that compares between Monoms - will return 0
 if they are equal.
-▪Graph - present the Polynom and it's extream in a 2d graph.
+
+▪ Graph - present the Polynom and it's extream in a 2d graph.
 
